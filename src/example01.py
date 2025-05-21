@@ -1,3 +1,5 @@
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
 import requests
 
 URL = "https://www.google.com.br/"

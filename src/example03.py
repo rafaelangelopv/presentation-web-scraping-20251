@@ -1,3 +1,5 @@
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
 from colorama import Fore, Style, Back
 from urllib.request import urlopen
 from urllib.error import HTTPError, URLError
